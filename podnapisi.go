@@ -22,14 +22,12 @@ type Subtitle struct {
 }
 
 type ShowSearchParams struct {
-	Name         string
-	Season       string
-	Episode      string
-	Download     bool
-	Language     string
-	Limit        int
-	OutputFolder string
-	EditorName   string
+	Name     string
+	Season   string
+	Episode  string
+	Download bool
+	Language string
+	Limit    int
 }
 
 func Search(params ShowSearchParams) ([]Subtitle, error) {
