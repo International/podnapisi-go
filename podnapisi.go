@@ -25,7 +25,7 @@ type ShowSearchParams struct {
 	Name     string
 	Season   string
 	Episode  string
-	Download bool
+	Download string
 	Language string
 	Limit    int
 }
